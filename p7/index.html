@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obtener el valor de un control radio</title>
+
+	<script src="../jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<label>Si</label>
+    <input type="radio" id="radiosi" name="miradio">
+    <label>No</label>
+    <input type="radio" id="radiono" name="miradio">
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#radiosi').click(function(){
+            alert("Es positivo o tiene un valor tal");
+        });
+        $('#radiono').click(function(){
+            alert("Es negativo o tiene un valor tal");
+        });
+	});
+</script>
